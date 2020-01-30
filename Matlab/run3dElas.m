@@ -4,7 +4,7 @@ clc
 format short
 
 % INSTRUCTIONS:
-%   1) Run the code to see it converges. (1176 unstructured hex elements in 0.49 seconds.)
+%   1) Run the code to see it converges. (1176 unstructured hex8 elements in 0.49 seconds.)
 %   Then
 %   2) Uncomment %filename = 'cube_1e_6ns_s'; (line 20) and run:
 %       (This will run with 1 elem. grad_u values for 1 element based on the  
