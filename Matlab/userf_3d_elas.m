@@ -28,8 +28,7 @@ function [f0,f1] = userf_3d_elas(ue, grad_ue, xe, one_elem_flag)
         disp('    [du3/dx | du3/dy | du3/dz]');
         disp(' ');
         for i=1:8
-            [grad_ue(i,:);grad_ue(i+8,:);grad_ue(i+2*8,:)]'
-            
+            disp([grad_ue(i,:);grad_ue(i+8,:);grad_ue(i+2*8,:)]')            
         end        
    end
   

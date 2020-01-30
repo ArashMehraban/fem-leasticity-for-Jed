@@ -17,7 +17,7 @@ format short
 one_elem_flag = 0;
 filename = 'cylinder8_1176e_us';
 
-%filename = 'cube_1e_6ns_s';
+% filename = 'cube_1e_6ns_s';
 
 if(strcmp(filename, 'cube_1e_6ns_s') == 1)
     one_elem_flag = 1;
