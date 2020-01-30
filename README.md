@@ -11,7 +11,7 @@ Uncomment `%filename = 'cube_1e_6ns_s';` (line 20 in `run3dElas.m`) and run:\
 ```
 
 **Note**:\
-You may check those values against the output for 1 element from our CEED/PETSc code for grad_u to verify they are the same.\
+You may check those values against the output for 1 element from our CEED/PETSc code for grad_u to verify they are the same.
 
 **Results from Matlab Code:**
 
@@ -57,9 +57,9 @@ grad_ue per Node (lex ordering):
     0.1986    0.0000    0.2493
 ```
 
-**NOTE:** PETSc code uses mesh files that have sidesets (ss in the mesh file name) while Matlab uses nodesets (ns in mesh file name)\
+**NOTE:** PETSc code uses mesh files that have sidesets (ss in the mesh file name) while Matlab uses nodesets (ns in mesh file name)
 ```
-[jeremy@pheonix CeedPetscSolid]$  ./elasticity -mesh ./meshes/cube_1e_6ss_s.exo -degree 1 -nu .3 -E 1 -boundary mms -forcing mms -snes_monitor 
+./elasticity -mesh ./meshes/cube_1e_6ss_s.exo -degree 1 -nu .3 -E 1 -boundary mms -forcing mms -snes_monitor 
 L2 Error: -nan
 Qpt 0
 0.563299	-0.717780	-0.000000	
